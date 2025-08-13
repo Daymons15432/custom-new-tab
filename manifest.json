@@ -1,0 +1,17 @@
+{
+  "manifest_version": 3,
+  "name": "Custom New Tab",
+  "description": "Custom New Tab, let you edit default New Tab page with your own design by overriding chrome://newtab, Created and developed by Hakiou Derion",
+  "version": "1.0.0",
+  "icons": {
+    "256": "icon256.png"
+  },
+  "chrome_url_overrides": {
+    "newtab": "newtab.html"
+  },
+  "web_accessible_resources": [
+    {
+      "matches": ["<all_urls>"]
+    }
+  ]
+}
