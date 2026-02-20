@@ -4,13 +4,17 @@
   "description": "Custom New Tab, let you edit default New Tab page with your own design by overriding chrome://newtab, Created and developed by Hakiou Derion",
   "version": "1.0.0",
   "icons": {
-    "256": "icon256.png"
+    "16": "logo.png",
+    "32": "logo.png",
+    "48": "logo.png",
+    "128": "logo.png"
   },
   "chrome_url_overrides": {
     "newtab": "newtab.html"
   },
   "web_accessible_resources": [
     {
+      "resources": ["icon256.png"],
       "matches": ["<all_urls>"]
     }
   ]
